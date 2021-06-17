@@ -1,0 +1,237 @@
+<html>
+<head>
+<style type="text/css">
+
+img {
+    border-radius: 50%;
+}
+
+a:link, a:visited {
+    background-color: #504a4b;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color:#b6b6b4;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+body{background-color:black; color:#f660ab; font-family:script; font-weight:bold; font-size:30px; border-style:double; border-color:yellow; border-width:10px;}
+.header ul{text-decoration:none;size:15px;color:yellow;display:inline;float:center}
+.header ul li{display:inline;padding:10px;align:center;font-size:18px;}
+.header ul li a{text-decoration:none;font-family:"comic sans MS";}
+h1
+{
+font-family:"impact";
+font-weight:bold;
+text-align:center;
+text-decoration:underline;
+background-color:#254117;
+background-color:#254117;
+color:yellow;
+font-size:150px;
+border-radius: 15px 50px 30px;
+padding: 20px; 
+width: 1300px;
+height: 100px; 
+}
+
+.class1
+{
+font-family:"comic sans ms";
+text-align:left;
+color:BLACK;
+text-decoration:underline;
+font-weight:bold;
+font-size:50px;}
+
+.class2{
+font-family:"comic sans ms";
+text-align:left;
+text-weight:bolditalic;
+color:white;
+font-size:30px;
+}
+.class3{
+font-family:"comic sans ms"; font-size:30px;
+text-weight:bold; text-decoration:underline;
+color:yellow; text-align:left; text-size:25px;
+}
+.class4
+{font-family:"comic sans ms";
+text-weight:bold;
+color:#f9b7ff;}
+
+.class5{
+font-family:"comic sans ms"; font-size:30px; 
+text-weight:bold;
+border-color:yellow; border-style:dotted;
+background-color:black; color:yellow;}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.tab{overflow:hidden;border:1px solid #ccc; background-color:#f1f1f1;}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+</head>
+<body>
+<h1 id="h1">superheores!</h1>
+<div class="header">
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="comics.html">COMICS</a></li>
+<li><a href="videos.html">VIDEOS</a></li>
+<li><a href="movies.html">MOVIES</a></li>
+<li><a href="games.html">GAMES</a></li>
+<li><a href="about.html">ABOUT US</a></li>
+<li><a href="feed.html">FEEDBACK</a></li>
+</ul>
+</div>
+
+
+
+<p class="class5">your  FEEDBACK  really  matters :<br>
+Name : <input type="text" size=20><br>
+Your  FAVROITE  SUPERHERO : <input type="radio" name="radio">Batman
+<input type="radio" name="radio">Captain America
+<input type="radio" name="radio">Hulk
+<input type="radio" name="radio">Iron Man
+<input type="radio" name="radio">Spiderman
+<input type="radio" name="radio">Superman
+<input type="radio" name="radio">Wonder Woman
+<br>
+Comments : <textarea cols="10" row="20"></textarea>
+<br>
+Do  you  found  my  web  page  useful : <input type="radio" name="radio">yes
+<input type="radio" name="radio">no
+
+<br><input type="SUBMIT" size="5"><br><br></p>
+<h5 text align="right"> by sakshi</h5>
+</body>
+</html>
